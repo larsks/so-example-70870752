@@ -1,0 +1,4 @@
+all:
+  hosts:
+    host0:
+      ansible_host: localhost

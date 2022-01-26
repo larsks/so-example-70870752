@@ -1,0 +1,7 @@
+plugin: constructed
+strict: false
+groups:
+  ipmi_hosts: ipmi_host|default(false)
+keyed_groups:
+  - prefix: "os"
+    key: ansible_distribution
